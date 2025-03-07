@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const questions = [
         { question: "What is the capital of France?", options: ["Berlin", "Madrid", "Paris", "Lisbon"], answer: "Paris" },
 		{ question: "What is the highest mountain in the world?", options: ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"], answer: "Mount Everest" },
-        { question: "Which planet is known as the Red Planet?", options: ["Earth", "Mars", "Jupiter", "Venus"], answer: "Mars" },
+        { question: "What is the largest country by area?", options: ["Cuba", "India", "Japan", "Russia"], answer: "Russia" },
         { question: "What is the largest mammal?", options: ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"], answer: "Blue Whale" },
         { question: "How many continents are there?", options: ["5", "6", "7", "8"], answer: "7" }
     ];

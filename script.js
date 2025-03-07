@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { question: "What is the capital of France?", options: ["Paris", "London", "Berlin", "Madrid"], answer: "Paris" },
 		{ question: "What is the highest mountain in the world?", options: ["Everest", "Kilimanjaro", "Denali", "Matterhorn"], answer: "Everest" },
         { question: "What is the largest country by area?", options: ["Russia", "China", "Canada", "United States"], answer: "Russia" },
-        { question: "Which is the largest planet in our solar system?", options: ["Earth", "", "", ""], answer: "Jupiter" },
+        { question: "Which is the largest planet in our solar system?", options: ["Earth", "Jupiter", "", ""], answer: "Jupiter" },
         { question: "What is the capital of Canada?", options: ["Toronto", "Montreal", "Ottawa", "Vancouver"], answer: "Ottawa" }
     ];
 

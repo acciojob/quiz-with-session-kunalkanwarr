@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		{ question: "What is the highest mountain in the world?", options: ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"], answer: "Mount Everest" },
         { question: "What is the largest country by area?", options: ["Cuba", "India", "Japan", "Russia"], answer: "Russia" },
         { question: "Which is the largest planet in our solar system?", options: ["Saturn", "Earth", "Neptune", "Jupiter"], answer: "Jupiter" },
-        { question: "How many continents are there?", options: ["5", "6", "7", "8"], answer: "7" }
+        { question: "What is the capital of Canada?", options: ["Toronto", "Montreal", "Ottawa", "Vancouver"], answer: "Ottawa" }
     ];
 
     const questionContainer = document.getElementById("questions");

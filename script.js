@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const questions = [
         { question: "What is the capital of France?", options: ["Paris", "London", "Berlin", "Madrid"], answer: "Paris" },
-		{ question: "What is the highest mountain in the world?", options: ["K2", "Mount Everest", "Kangchenjunga", "Lhotse"], answer: "Mount Everest" },
+		{ question: "What is the highest mountain in the world?", options: ["Everest", "", "", ""], answer: "Mount Everest" },
         { question: "What is the largest country by area?", options: ["Cuba", "India", "Japan", "Russia"], answer: "Russia" },
         { question: "Which is the largest planet in our solar system?", options: ["Saturn", "Earth", "Neptune", "Jupiter"], answer: "Jupiter" },
         { question: "What is the capital of Canada?", options: ["Toronto", "Montreal", "Ottawa", "Vancouver"], answer: "Ottawa" }

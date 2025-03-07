@@ -40,17 +40,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 input.type = "radio";
                 input.name = `question${index}`;
                 input.value = option;
-                if (storedProgress[index] && storedProgress[index] === option) {
-                    setTimeout(() => { input.checked = true; }, 0); // Ensures checked attribute is properly set
-                }
+                questionDiv.appendChild(label);
+                label.appendChild(input);
+                label.appendChild(document.createTextNode(option));
+                questionDiv.appendChild(document.createElement("br"));
+                
+                setTimeout(() => {
+                    if (storedProgress[index] && storedProgress[index] === option) {
+                        input.checked = true;
+                    }
+                }, 10); // Ensures checked attribute is properly set
+
                 input.addEventListener("change", () => {
                     storedProgress[index] = input.value;
                     saveProgress(storedProgress);
                 });
-                label.appendChild(input);
-                label.appendChild(document.createTextNode(option));
-                questionDiv.appendChild(label);
-                questionDiv.appendChild(document.createElement("br"));
             });
             questionContainer.appendChild(questionDiv);
         });
